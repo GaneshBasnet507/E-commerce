@@ -1,0 +1,84 @@
+
+<!doctype html>
+<body>
+<title> User login</title>
+	<center><h1> User login page</h1></center>
+	<form action="login.php", method="POST" >
+	<div class="container">
+		<level for="uname"><b>Username</b></level>
+			<input type="text" name="uname" placeholder="enter user id" />
+		<level for="psw"><b>password</b></level>
+			<input type="password" name="psw" placeholder="enter password" />
+			<button type="button" name="submit" onclick="window.location.href='register.html'"  > Register</button>
+			<button type="submit" name="submit"  > login</button>
+			<button type="button" name="back" onclick="window.location.href='index.html'" > Back</button></div>
+		</form>
+		</body>
+		
+		</html>
+       
+		<style>
+			body {
+				font-family: Arial, sans-serif;
+				background-color: #f2f2f2;
+			}
+	
+			h1 {
+				color: #3d3d3d;
+				font-size: 36px;
+				text-align: center;
+				margin-top: 50px;
+				margin-bottom: 30px;
+			}
+	
+			form {
+				width: 400px;
+				margin: 0 auto;
+				padding: 30px;
+				background-color: #fff;
+				border-radius: 10px;
+				box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+			}
+	
+			label {
+				display: block;
+				font-size: 18px;
+				font-weight: bold;
+				margin-bottom: 10px;
+				color: #3d3d3d;
+			}
+	
+			input[type="text"], input[type="password"] {
+				display: block;
+				width: 100%;
+				padding: 10px;
+				border-radius: 5px;
+				border: none;
+				box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+				margin-bottom: 20px;
+				font-size: 16px;
+				color: #3d3d3d;
+			}
+	
+			button[type="submit"],button[type="button"] {
+				display: inline;
+				margin-top: 20px;
+				padding: 10px 20px;
+				background-color: #008CBA;
+				color: #fff;
+				border: none;
+				border-radius: 5px;
+				font-size: 18px;
+				font-weight: bold;
+				cursor: pointer;
+				
+			}
+	
+			button[type="submit"]:hover {
+				background-color: #005f70;
+			}
+			button[type="button"]:hover {
+				background-color: #005f70;
+			}
+		</style>
+	

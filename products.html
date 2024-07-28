@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title >All Products</title>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="style.css"></head>
+<body >
+    <div class="header">
+    <div class="cointainer">
+        <div class="navbar">
+            <div class="logo">
+                <img src="logo.png" width="100px">
+                </div>
+                <nav >
+                    
+                    <ul id="menuitems">
+                        <li><a href="index.html" >Home</a></li>
+                        <li><a href="" >Products</a></li>
+                        <li><a href="" >About</a></li>
+                        <li><a href="" >Contact</a></li>
+                        <li><a href="userlogin.html" >Account</a></li>
+                       
+                    </ul>  
+                    <img src="images/cart.jpg" width="30px" > </nav>
+                    <img src="images/menu.png"  class="menu-icon" width="30px" onclick="menutoggle()" >
+            </div>
+        </div>
+ 
+
+<div class="small-container">
+    <h2 class="heading2">Featured Products</h2>
+    <h2 class="sorting">Order By Products
+        <select>
+            <option >Default sorting</option>
+            <option >Sort by Price</option>
+            <option >Sort by Rating</option>
+        </select></h2>
+    <div class="row">
+        <div class="col5">
+            <img src="images/product1.jpg">
+            <h4>Red printed T-shirt</h4>
+            <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                
+            </div>
+            <p>$20.00</p>
+        </div>
+        <div class="col5">
+            <img src="images/products2.jpg">
+            <h4>Male Mallard Jens</h4>
+            <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                
+            </div>
+            <p>$30.00</p>
+        </div>
+        <div class="col5">
+            <img src="images/products3.jpg">
+            <h4>Sneakers shoes</h4>
+            <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$25.00</p>
+        </div>   
+    </div>
+    <h2 class="heading2">Latest item</h2>
+    <div class="row">
+        <div class="col5">
+            <img src="images/shirt.jpg">
+            <h4>Whie Male shirt</h4>
+            <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$50.00</p>
+        </div>
+        <div class="col5">
+            <img src="images/nikeshoes.jpg">
+            <h4>Nike shoes</h4>
+            <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$80.00</p>
+        </div>  
+        <div class="col5">
+            <img src="images/blackpaint.jpg">
+            <h4>Denim Black Paint</h4>
+            <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$90.00</p>
+        </div>  
+
+    </div>
+    
+    <div class="page-btn">
+        <span>1</span>
+        <span>2</span>
+        <span>3</span>
+        <span>&#8594; </span>
+    </div>
+</div>
+
+
+<div class="footer">
+    <div class="cointainer">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download our app</h3>
+                <p>Download our app in android and ios mobile phome</p>
+               <div class="app-logo">
+               <img src="images/applogo1.png">
+               <img src="images/applogo2.png">
+               
+            </div>
+            </div>
+            <div class="footer-col-2">
+               <img src="logo.png">
+                <p>Download our app in android and ios mobile phome</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>useful links</h3>
+                <ul>
+                    <li>Coupens</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+
+                </ul>
+             </div>
+             <div class="footer-col-4">
+                <h3>Follow us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Instagram</li>
+                    <li>Youtube</li>
+
+                </ul>
+             </div>
+        </div>
+        <hr>
+        <p class="copyright">CopyRight-2024 </p>
+    </div>
+</div>
+<script>
+    var menuitems = document.getElementById("menuitems");
+    menuitems.style.maxHeight="0px";
+    function menutoggle(){
+        if(menuitems.style.maxHeight="0px"){
+            menuitems.style.maxHeight="200px";
+        }
+        else{
+            menuitems.style.maxHeight="0px";
+        }
+    }
+</script>
+</body>
+</html>
